@@ -1,0 +1,13 @@
+<div class="container__subTitle__products"
+     [ngClass]="{'noProducts': status}"
+     *ngIf="status, else noProducts"
+>
+  <h2 class="mat-h2 subtitle">{{titleNoProducts | titlecase}}</h2>
+</div>
+<ng-template #noProducts>
+  <div class="container__subTitle__products">
+    <h2 class="mat-h2 subtitle">{{titleProducts | titlecase}}</h2>
+  </div>
+</ng-template>
+
+

@@ -1,0 +1,23 @@
+/*menu header*/
+.example-spacer {
+  flex: 1 1 auto;
+}
+.container__menu__header{
+  margin: 0;
+}
+
+/*title*/
+.title{
+  font-family: var(--typography);
+  font-weight: bold;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+/*button*/
+.button {
+  width: 13.5rem;
+  font-size: 1.2rem;
+  font-family: var(--typography);
+  font-weight: bold;
+}

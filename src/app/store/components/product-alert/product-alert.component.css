@@ -1,0 +1,19 @@
+.subtitle {
+  text-align: center;
+  color: var(--white);
+  margin: 0;
+  font-family: var(--typography);
+  font-weight: bold;
+}
+
+.container__subTitle__products {
+  background-color: var(--green);
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.noProducts {
+  background-color: var(--red);
+}

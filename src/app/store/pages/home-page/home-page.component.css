@@ -1,0 +1,22 @@
+/*hide table*/
+.no-item {
+  display: none;
+}
+
+/*home page*/
+.container__homePage {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container__homePage {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container__homePage {
+    width: 60%;
+  }
+}

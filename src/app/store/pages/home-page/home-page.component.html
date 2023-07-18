@@ -1,0 +1,7 @@
+
+<div class="container__homePage">
+  <store-header [status]="status" (seeItems)="seeItems()"></store-header>
+  <store-product-alert [status]="status"></store-product-alert>
+  <store-product-list [ngClass]="{'no-item' : status}"></store-product-list>
+</div>
+

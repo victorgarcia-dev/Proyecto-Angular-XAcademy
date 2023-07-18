@@ -1,0 +1,26 @@
+<p class="container__menu__header">
+  <mat-toolbar color="primary">
+    <span class="title">{{title | uppercase}}</span>
+    <span class="example-spacer"></span>
+    <button mat-flat-button
+            color="accent"
+            (click)="changeStatus()"
+            *ngIf="status ,else elseBlock"
+            class="button"
+
+    >
+      Ver Productos
+    </button>
+
+    <ng-template #elseBlock>
+      <button mat-flat-button
+              color="accent"
+              (click)="changeStatus()"
+              class="button"
+      >
+        Ocultar Productos
+      </button>
+    </ng-template>
+
+  </mat-toolbar>
+</p>
